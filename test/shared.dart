@@ -1,4 +1,3 @@
-
 import 'package:flagsmith_core/flagsmith_core.dart';
 
 final seeds = [

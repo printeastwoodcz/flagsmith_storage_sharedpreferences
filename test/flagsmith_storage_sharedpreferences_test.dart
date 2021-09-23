@@ -4,11 +4,10 @@ import 'package:flagsmith_storage_sharedpreferences/sharedpreferences_store.dart
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-
 import 'shared.dart';
 
 void main() {
-    SharedPreferences.setMockInitialValues(<String, String>{});
+  SharedPreferences.setMockInitialValues(<String, String>{});
 
   final CoreStorage storage = FlagsmithSharedPreferenceStore();
   late StorageProvider storageProvider;
