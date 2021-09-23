@@ -1,39 +1,25 @@
-<!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+<img width="100%" src="https://github.com/Flagsmith/flagsmith/raw/main/static-files/hero.png"/>
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
+# Storage package for Flagsmith Client
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
--->
+SharedPreferences storage for Flagsmith Client.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Flagsmith allows you to manage feature flags and remote config across multiple projects, environments and organisations.
 
-## Features
+This is the SDK for Flutter for [https://www.flagsmith.com/](https://www.flagsmith.com/).
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+## Adding to your project
 
-## Getting started
+For full documentation visit [https://docs.flagsmith.com/clients/flutter/](https://docs.flagsmith.com/clients/flutter/)
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## Contributing
 
-## Usage
+Please read [CONTRIBUTING.md](https://gist.github.com/kyle-ssg/c36a03aebe492e45cbd3eefb21cb0486) for details on our code of conduct, and the process for submitting pull requests to us.
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+## Getting Help
 
-```dart
-const like = 'sample';
-```
+If you encounter a bug or feature request we would like to hear about it. Before you submit an issue please search existing issues in order to prevent duplicates.
 
-## Additional information
+## Get in touch
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+If you have any questions about our projects you can email <a href="mailto:support@flagsmith.com">support@flagsmith.com</a>.
