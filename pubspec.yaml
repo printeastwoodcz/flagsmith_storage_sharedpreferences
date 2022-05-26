@@ -4,25 +4,26 @@ description: >-
   https://www.flagsmith.com/, Flagsmith is 100% Open
   Source. Host yourself or let us take care of the hosting.
 
-version: 2.1.0+1
+version: 3.0.0-beta.1
 homepage: https://github.com/Flagsmith/flagsmith-flutter-client
 repository: https://github.com/Flagsmith/flagsmith-flutter-client
 issue_tracker: https://github.com/Flagsmith/flagsmith-flutter-client/issues
 
 environment:
-  sdk: ">=2.13.0 <3.0.0"
+  sdk: ">=2.16.0 <3.0.0"
   flutter: ">=2.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flagsmith_core: ^2.1.0+1
-  shared_preferences: ">=2.0.6 <=2.0.8"
-  collection: ^1.15.0
+  flagsmith_core: ^3.0.0-beta.1
+  shared_preferences: ">=2.0.10 <=2.1.0"
+  collection: ">=1.15.0 <1.18.0"
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.0
- 
+  flutter_lints: ">=1.0.0 <2.1.0"
+dependency_overrides:
+   platform: ^3.1.0
 # The following section is specific to Flutter.
 flutter:
